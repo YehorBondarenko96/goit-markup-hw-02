@@ -1,15 +1,16 @@
 :root{
+    --all-background: #FFFFFF;
     --text-color: #2E2F42;
-    --logo-first: #4D5AE5;
-    --logo-second: #2E2F42;
-    --text-header-normal: #2E2F42;
+    --logo-first: #4d5ae5;
+    --logo-second: #2e2f42;
+    --text-header-normal: #434455;
     --text-header-hover: #404BBF;
     --title-background: #2E2F42;
     --title-button-normal: #4D5AE5;
     --title-button-hover: #404BBF;
     --title-text: #FFFFFF;
     --main-background-first: #F4F4FD;
-    --text-dark-background: #F4F4FD;
+    --text-dark-background: #f4f4fd;
     --first-button-portfolio-normal: #4D5AE5;
     --first-button-portfolio-hover: #404BBF;
     --text-first-button-portfolio: #FFFFFF;
@@ -20,18 +21,16 @@
     --footer-text: #F4F4FD;
     --first-inscription-cards: #2E2F42;
     --second--inscription-cards: #434455;
+    --second-section-text: #434455;
 }
 
 body{
     font-family: "Roboto", sans-serif;
-    color: var(--text-color);
+    color: #434455;
+    background-color: var(--all-background);
 }
 
-ul{
-    list-style-type: none;
-}
-
-a{
+.link{
     text-decoration: none;
 }
 
@@ -40,36 +39,34 @@ button{
 }
 
 .logo{
+    color: var(--logo-first);
+    text-decoration: none;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 800;
     text-transform: uppercase;
-    line-height: 1.16666667;
-    letter-spacing: 3%;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
-.logo-first{
-    color: var(--logo-first);
-}
-
-.logo-second{
+span{
     color: var(--logo-second);
 }
 
-.logo-second-dark-background{
-    color: var(--text-dark-background);
+.list{
+    list-style: none;
 }
 
-.list-menu-header>li>a{
+.list-menu-header{
     color: var(--text-header-normal);
     font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
-        letter-spacing: 2%;
+        letter-spacing: 0.02em;
 }
 
-.list-menu-header .studio:hover,
-.list-menu-header .studio:focus{
+.list-menu-header:hover,
+.list-menu-header:focus{
     color: var(--text-header-hover);
 }
 
@@ -83,20 +80,25 @@ button{
     color: var(--text-header-hover);
 }
 
-.list-contacts-header>li>a{
+.list{
+    list-style: none;
+}
+
+.list-contacts-header{
+    font-style: normal;
     color: var(--text-header-normal);
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
-.list-contacts-header .mail:hover,
-.list-contacts-header .mail:focus {
+.list-contacts-header:hover,
+.list-contacts-header:focus {
     color: var(--text-header-hover);
 }
 
-.list-contacts-header .tel:hover,
-.list-contacts-header .tel:focus {
+.list-contacts-header:hover,
+.list-contacts-header:focus {
     color: var(--text-header-hover);
 }
 
@@ -105,85 +107,107 @@ button{
     text-align: center;
 }
 
-.first-section>h1{
+.title-first-section{
     color: var(--title-text);
     font-size: 56px;
     font-weight: 700;
-    line-height: 1.07142857;
-    letter-spacing: 2%;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 
-.first-section>button{
+.first-section-button{
     background-color: var(--title-button-normal);
     color: var(--title-text);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
+    font-family: "Roboto", sans-serif;
 }
 
-.first-section>button:hover,
-.first-section>button:focus{
+.first-section-button:hover,
+.first-section-button:focus{
     background-color: var(--title-button-hover);
 }
 
-.second-section>ul>li>h3{
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 2%;
-    text-align: left;
-}
-
-.invisible-text{
+.invisible-text {
     font-size: 0;
     opacity: 0;
 }
 
-.second-section>ul>li>p {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 2%;
+.second-section-titles{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     text-align: left;
 }
 
-h2{
+.second-section-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--second-section-text);
+}
+
+.tytles-h2{
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.11111111;
-    letter-spacing: 2%;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
 }
 
 .fourth-section{
     background-color: var(--main-background-first);
 }
 
-.fourth-section>ul>li>h3{
+.background-list-fourth-section{
+    background-color: #FFFFFF;
+}
+
+.fourth-section-h3{
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 
-.fourth-section>ul>li>p {
+.fourth-section-p {
     color: var(--positions-team);
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 
-footer{
+.footer{
     background-color: var(--title-background);
 }
 
-footer>p{
+.logo-footer{
+    color: var(--logo-first);
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.second-span {
+    color: var(--text-dark-background);
+}
+
+.footer-p{
     color: var(--footer-text);
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     text-align: left;
 }
 
