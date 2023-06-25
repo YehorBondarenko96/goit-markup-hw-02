@@ -4,6 +4,7 @@
     --logo-first: #4d5ae5;
     --logo-second: #2e2f42;
     --text-header-normal: #2e2f42;
+    --text-header-contacts-normal: #434455;
     --text-header-hover: #404BBF;
     --title-background: #2E2F42;
     --title-button-normal: #4D5AE5;
@@ -54,6 +55,10 @@ span{
     color: var(--logo-second);
 }
 
+.portfolio-span {
+    color: var(--logo-second);
+}
+
 .list{
     list-style: none;
 }
@@ -71,13 +76,13 @@ span{
     color: var(--text-header-hover);
 }
 
-.list-menu-header .portfolio:hover,
-.list-menu-header .portfolio:focus {
+.list-menu-header:hover,
+.list-menu-header:focus {
     color: var(--text-header-hover);
 }
 
-.list-menu-header .contacts:hover,
-.list-menu-header .contacts:focus {
+.list-menu-header:hover,
+.list-menu-header:focus {
     color: var(--text-header-hover);
 }
 
@@ -90,7 +95,7 @@ span{
 }
 
 .list-contacts-header{
-    color: var(--text-header-normal);
+    color: var(--text-header-contacts-normal);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
