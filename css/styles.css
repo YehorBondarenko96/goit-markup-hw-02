@@ -1,0 +1,19 @@
+:root{
+    --logo-first: #4D5AE5;
+    --logo-second: #2E2F42;
+    --text-header-normal: #2E2F42;
+    --text-header-active: #404BBF;
+    --title-fone: #2E2F42;
+    --title-button-normal: #4D5AE5;
+    --title-button-active: #404BBF;
+    --title-text: #FFFFFF;
+    --main-fone-first: #F4F4FD;
+    --logo-second-dark-background: #F4F4FD;
+    --text-dark-background: #F4F4FD;
+    --first-button-portfolio-normal: #4D5AE5;
+    --first-button-portfolio-active: #404BBF;
+    --text-first-button-portfolio: #FFFFFF;
+    --button-portfolio-normal: #E7E9FC;
+    --button-portfolio-active:#9747FF;
+    --text-button-portfolio: #4D5AE5;
+}
