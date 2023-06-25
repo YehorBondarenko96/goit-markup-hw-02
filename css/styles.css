@@ -18,6 +18,8 @@
     --text-button-portfolio: #4D5AE5;
     --positions-team:#434455;
     --footer-text: #F4F4FD;
+    --first-inscription-cards: #2E2F42;
+    --second--inscription-cards: #434455;
 }
 
 body{
@@ -31,6 +33,10 @@ ul{
 
 a{
     text-decoration: none;
+}
+
+button{
+    cursor: pointer;
 }
 
 .logo{
@@ -175,6 +181,55 @@ footer{
 
 footer>p{
     color: var(--footer-text);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    text-align: left;
+}
+
+
+
+.first-button{
+    background-color: var(--first-button-portfolio-normal);
+    color: var(--text-first-button-portfolio);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 4%;
+    text-align: center;
+}
+
+.first-button:hover,
+.first-button:focus{
+    background-color: var(--first-button-portfolio-hover);
+}
+
+main>ul>li>button{
+    background-color: var(--button-portfolio-normal);
+    color: var(--text-button-portfolio);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 4%;
+    text-align: center;
+}
+
+main>ul>li>button:hover,
+main>ul>li>button:focus{
+    background-color: var(--button-portfolio-hover);
+}
+
+h3{
+    color:var(--first-inscription-cards);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 2%;
+    text-align: left;
+}
+
+ul>li>a>p{
+    color: var(--second--inscription-cards);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 2%;
