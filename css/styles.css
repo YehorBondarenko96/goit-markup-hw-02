@@ -1,19 +1,182 @@
 :root{
+    --text-color: #2E2F42;
     --logo-first: #4D5AE5;
     --logo-second: #2E2F42;
     --text-header-normal: #2E2F42;
-    --text-header-active: #404BBF;
-    --title-fone: #2E2F42;
+    --text-header-hover: #404BBF;
+    --title-background: #2E2F42;
     --title-button-normal: #4D5AE5;
-    --title-button-active: #404BBF;
+    --title-button-hover: #404BBF;
     --title-text: #FFFFFF;
-    --main-fone-first: #F4F4FD;
-    --logo-second-dark-background: #F4F4FD;
+    --main-background-first: #F4F4FD;
     --text-dark-background: #F4F4FD;
     --first-button-portfolio-normal: #4D5AE5;
-    --first-button-portfolio-active: #404BBF;
+    --first-button-portfolio-hover: #404BBF;
     --text-first-button-portfolio: #FFFFFF;
     --button-portfolio-normal: #E7E9FC;
-    --button-portfolio-active:#9747FF;
+    --button-portfolio-hover:#9747FF;
     --text-button-portfolio: #4D5AE5;
+    --positions-team:#434455;
+    --footer-text: #F4F4FD;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    color: var(--text-color);
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.16666667;
+    letter-spacing: 3%;
+}
+
+.logo-first{
+    color: var(--logo-first);
+}
+
+.logo-second{
+    color: var(--logo-second);
+}
+
+.logo-second-dark-background{
+    color: var(--text-dark-background);
+}
+
+.list-menu-header>li>a{
+    color: var(--text-header-normal);
+    font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 2%;
+}
+
+.list-menu-header .studio:hover,
+.list-menu-header .studio:focus{
+    color: var(--text-header-hover);
+}
+
+.list-menu-header .portfolio:hover,
+.list-menu-header .portfolio:focus {
+    color: var(--text-header-hover);
+}
+
+.list-menu-header .contacts:hover,
+.list-menu-header .contacts:focus {
+    color: var(--text-header-hover);
+}
+
+.list-contacts-header>li>a{
+    color: var(--text-header-normal);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+}
+
+.list-contacts-header .mail:hover,
+.list-contacts-header .mail:focus {
+    color: var(--text-header-hover);
+}
+
+.list-contacts-header .tel:hover,
+.list-contacts-header .tel:focus {
+    color: var(--text-header-hover);
+}
+
+.first-section{
+    background-color: var(--title-background);
+    text-align: center;
+}
+
+.first-section>h1{
+    color: var(--title-text);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07142857;
+    letter-spacing: 2%;
+}
+
+.first-section>button{
+    background-color: var(--title-button-normal);
+    color: var(--title-text);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 4%;
+}
+
+.first-section>button:hover,
+.first-section>button:focus{
+    background-color: var(--title-button-hover);
+}
+
+.second-section>ul>li>h3{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 2%;
+    text-align: left;
+}
+
+.invisible-text{
+    font-size: 0;
+    opacity: 0;
+}
+
+.second-section>ul>li>p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    text-align: left;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11111111;
+    letter-spacing: 2%;
+    text-align: center;
+}
+
+.fourth-section{
+    background-color: var(--main-background-first);
+}
+
+.fourth-section>ul>li>h3{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 2%;
+    text-align: center;
+}
+
+.fourth-section>ul>li>p {
+    color: var(--positions-team);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    text-align: center;
+}
+
+footer{
+    background-color: var(--title-background);
+}
+
+footer>p{
+    color: var(--footer-text);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    text-align: left;
 }
