@@ -12,12 +12,10 @@
     --title-text: #FFFFFF;
     --main-background-first: #F4F4FD;
     --text-dark-background: #f4f4fd;
-    --first-button-portfolio-normal: #4D5AE5;
+    --first-button-portfolio-normal: #F4F4FD;
     --first-button-portfolio-hover: #404BBF;
-    --text-first-button-portfolio: #FFFFFF;
-    --button-portfolio-normal: #E7E9FC;
-    --button-portfolio-hover:#9747FF;
-    --text-button-portfolio: #4D5AE5;
+    --text-first-button-portfolio: #4d5ae5;
+    --text-first-portfolio-hover: #FFFFFF;
     --positions-team:#434455;
     --footer-text: #F4F4FD;
     --first-inscription-cards: #2E2F42;
@@ -226,46 +224,32 @@ span{
 .first-button{
     background-color: var(--first-button-portfolio-normal);
     color: var(--text-first-button-portfolio);
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     text-align: center;
 }
 
 .first-button:hover,
 .first-button:focus{
     background-color: var(--first-button-portfolio-hover);
+    color: var(--text-first-portfolio-hover);
 }
 
-main>ul>li>button{
-    background-color: var(--button-portfolio-normal);
-    color: var(--text-button-portfolio);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 4%;
-    text-align: center;
-}
-
-main>ul>li>button:hover,
-main>ul>li>button:focus{
-    background-color: var(--button-portfolio-hover);
-}
-
-h3{
+.title-text-cards-portfolio{
     color:var(--first-inscription-cards);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     text-align: left;
 }
 
-ul>li>a>p{
+.text-cards-portfolio{
     color: var(--second--inscription-cards);
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 2%;
-    text-align: left;
+    letter-spacing: 0.02em;
 }
