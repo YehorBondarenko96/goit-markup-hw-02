@@ -21,6 +21,8 @@
     --first-inscription-cards: #2E2F42;
     --second--inscription-cards: #434455;
     --second-section-text: #434455;
+    --second-section-titles: #2e2f42;
+    --fourth-section-titles: #2e2f42;
     --tytles-h-ll: #2e2f42;
 }
 
@@ -143,6 +145,7 @@ span{
 }
 
 .second-section-titles{
+    color: var(--second-section-titles);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -177,6 +180,7 @@ span{
 }
 
 .fourth-section-h-lll{
+    color: var(--fourth-section-titles);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
