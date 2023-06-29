@@ -51,7 +51,7 @@ button{
     letter-spacing: 0.03em;
 }
 
-span{
+.span{
     color: var(--logo-second);
 }
 
